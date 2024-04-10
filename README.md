@@ -1,13 +1,15 @@
 ## Compression for AI
 
-### Install Pysz
+### Environment setup
 
-Make sure the environment is configured correctly
-0. source evn.bash.andes
+1. Fork this repository;
+2. Create a directory called ExternalDependencies;
 
-1. source build\_SZ3.sh # install sz3
+- Install SZ3 with python binding
+4. Execute `cd ExternalDependencies && git clone git@github.com:szcompressor/SZ3.git`;
+5. Execute `source build_SZ3.sh` from the home directory;
 
-Make sure to change the PROJHOME
+- Install zfpy python library
+6. Execute `pip install zfpy`;
 
-
-2. Install zfpy via `pip install zfpy`
+### Compression experiments
