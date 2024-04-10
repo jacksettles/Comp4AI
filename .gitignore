@@ -1,0 +1,13 @@
+*.dat
+*.sz
+*.zfp
+*.bp
+*.bin
+*.tar.gz
+*.f32
+
+ExternalDependencies/
+
+data/
+
+.DS_Store
