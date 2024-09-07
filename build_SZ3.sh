@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PROJHOME=/lustre/orion/csc143/proj-shared/jwang/Comp4AI
+export PROJHOME=/home/jts75596/yuan_projects/feature_maps
 cd $PROJHOME/ExternalDependencies/SZ3
 
 git checkout v3.1.8
